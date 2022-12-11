@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Clone This Project
+## Installation
 
 ```
 git clone https://github.com/rafisr23/carikos.git
@@ -35,7 +35,11 @@ php artisan key:generate
 php artisan migrate
 ```
 
-Because this project use laravel/ui you need install the node_modules
+Because this project use laravel/ui run:
+
+```
+php artisan ui bootstrap --auth
+```
 
 ```
 npm install && npm run dev
