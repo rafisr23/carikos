@@ -32,7 +32,7 @@ php artisan key:generate
 ```
 
 ```
-php php artisan migrate
+php artisan migrate
 ```
 
 Because this project use laravel/ui you need install the node_modules
